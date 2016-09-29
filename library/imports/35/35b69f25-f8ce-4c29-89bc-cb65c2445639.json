@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.next",
+    "texture": "164ac992-7d01-4959-a61b-6db288a05999",
+    "atlas": "",
+    "rect": [
+      12,
+      14,
+      25,
+      20
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

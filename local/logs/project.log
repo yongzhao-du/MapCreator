@@ -1,0 +1,566 @@
+2016-09-28T16:18:07.635Z - normal: Load ~/.CocosCreator/settings.json
+2016-09-28T16:18:07.640Z - normal: checking language setting...
+2016-09-28T16:18:07.640Z - normal: Language: zh
+2016-09-28T16:18:08.769Z - success: protocol editor-framework registered
+2016-09-28T16:18:08.769Z - success: protocol app registered
+2016-09-28T16:18:08.769Z - success: protocol packages registered
+2016-09-28T16:18:08.769Z - success: protocol theme registered
+2016-09-28T16:18:08.769Z - success: protocol unpack registerred
+2016-09-28T16:18:09.032Z - normal: connected!
+2016-09-28T16:18:09.041Z - normal: Check project G:\cocos_creator_project\map_creator
+2016-09-28T16:18:09.048Z - normal: Initializing Cocos Creator Editor
+2016-09-28T16:18:09.354Z - normal: Initializing Cocos2d
+2016-09-28T16:18:09.462Z - normal: Initializing Asset Database
+2016-09-28T16:18:09.479Z - success: protocol uuid registerred
+2016-09-28T16:18:09.479Z - success: protocol db registerred
+2016-09-28T16:18:09.480Z - success: protocol thumbnail registerred
+2016-09-28T16:18:09.480Z - normal: Loading editor/builtin packages
+2016-09-28T16:18:09.572Z - success: assets loaded
+2016-09-28T16:18:09.575Z - success: builder loaded
+2016-09-28T16:18:09.578Z - success: hierarchy loaded
+2016-09-28T16:18:09.580Z - success: inspector loaded
+2016-09-28T16:18:09.581Z - success: keystore loaded
+2016-09-28T16:18:09.583Z - success: node-library loaded
+2016-09-28T16:18:09.584Z - success: preferences loaded
+2016-09-28T16:18:09.593Z - success: project-importer loaded
+2016-09-28T16:18:09.594Z - success: project-settings loaded
+2016-09-28T16:18:09.596Z - success: ui-kit loaded
+2016-09-28T16:18:09.597Z - success: ui-grid loaded
+2016-09-28T16:18:09.599Z - success: scene loaded
+2016-09-28T16:18:09.600Z - success: sprite-editor loaded
+2016-09-28T16:18:09.602Z - success: timeline loaded
+2016-09-28T16:18:09.602Z - normal: Loading builtin packages
+2016-09-28T16:18:09.605Z - success: asset-db-debugger loaded
+2016-09-28T16:18:09.606Z - success: cocos-package loaded
+2016-09-28T16:18:09.607Z - success: code-editor loaded
+2016-09-28T16:18:09.607Z - success: color-picker loaded
+2016-09-28T16:18:09.609Z - success: console loaded
+2016-09-28T16:18:09.610Z - success: package-manager loaded
+2016-09-28T16:18:09.612Z - success: tester loaded
+2016-09-28T16:18:09.613Z - success: ui-kit-preview-extra loaded
+2016-09-28T16:18:09.615Z - success: ui-kit-preview loaded
+2016-09-28T16:18:09.616Z - success: ui-tree loaded
+2016-09-28T16:18:09.642Z - normal: Initializing project G:\cocos_creator_project\map_creator
+2016-09-28T16:18:09.644Z - normal: Loading packages
+2016-09-28T16:18:09.649Z - normal: Run Application
+2016-09-28T16:18:10.015Z - success: preview server running at http://localhost:7456
+2016-09-28T16:18:12.644Z - normal: 1.2.1-rc.1
+2016-09-28T16:18:16.065Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T16:18:16.066Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T16:18:16.066Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T16:18:16.066Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T16:18:16.579Z - normal: Simulator: Ready for GLSL
+2016-09-28T16:18:16.579Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T16:18:16.585Z - normal: Simulator: 
+2016-09-28T16:18:16.585Z - normal: Simulator: {
+2016-09-28T16:18:16.585Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T16:18:16.585Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T16:18:16.585Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T16:18:16.585Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T16:18:16.585Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T16:18:16.586Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T16:18:16.586Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T16:18:16.586Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T16:18:16.586Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T16:18:16.586Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T16:18:16.586Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T16:18:16.587Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T16:18:16.587Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T16:18:16.587Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T16:18:16.587Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T16:18:16.587Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T16:18:16.587Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T16:18:16.587Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T16:18:16.587Z - normal: Simulator: }
+2016-09-28T16:18:16.588Z - normal: Simulator: 
+2016-09-28T16:18:16.588Z - normal: Simulator: 
+2016-09-28T16:18:16.588Z - normal: Simulator: Project Config:
+2016-09-28T16:18:16.588Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T16:18:16.588Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T16:18:16.588Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T16:18:16.589Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T16:18:16.589Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T16:18:16.589Z - normal: Simulator:     show console: NO
+2016-09-28T16:18:16.589Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T16:18:16.590Z - normal: Simulator:     listen: 
+2016-09-28T16:18:16.590Z - normal: Simulator:     debugger: none
+2016-09-28T16:18:16.590Z - normal: Simulator:     add searching path:
+2016-09-28T16:18:16.591Z - normal: Simulator: 
+2016-09-28T16:18:16.591Z - normal: Simulator: 
+2016-09-28T16:18:16.592Z - normal: Simulator: 
+2016-09-28T16:18:16.593Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:18:16.593Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T16:18:16.593Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:18:16.837Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T16:18:16.877Z - normal: Simulator: iShow!
+2016-09-28T16:18:17.181Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T16:18:19.180Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:18:22.462Z - normal: Simulator: open file: 0001.map
+2016-09-28T16:18:22.962Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:18:23.463Z - normal: Simulator: open file: 0001.map
+2016-09-28T16:18:24.162Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:18:25.179Z - normal: Simulator: open file: 0001.map
+2016-09-28T16:18:25.600Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:18:26.065Z - normal: Simulator: open file: 0001.map
+2016-09-28T16:18:26.412Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:18:48.866Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T16:18:48.868Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T16:18:48.869Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T16:18:48.869Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T16:18:49.382Z - normal: Simulator: Ready for GLSL
+2016-09-28T16:18:49.383Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T16:18:49.383Z - normal: Simulator: 
+2016-09-28T16:18:49.383Z - normal: Simulator: {
+2016-09-28T16:18:49.384Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T16:18:49.384Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T16:18:49.385Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T16:18:49.385Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T16:18:49.385Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T16:18:49.385Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T16:18:49.386Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T16:18:49.387Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T16:18:49.387Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T16:18:49.387Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T16:18:49.387Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T16:18:49.388Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T16:18:49.388Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T16:18:49.388Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T16:18:49.388Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T16:18:49.388Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T16:18:49.388Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T16:18:49.388Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T16:18:49.389Z - normal: Simulator: }
+2016-09-28T16:18:49.389Z - normal: Simulator: 
+2016-09-28T16:18:49.390Z - normal: Simulator: 
+2016-09-28T16:18:49.390Z - normal: Simulator: Project Config:
+2016-09-28T16:18:49.390Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T16:18:49.391Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T16:18:49.391Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T16:18:49.391Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T16:18:49.391Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T16:18:49.391Z - normal: Simulator:     show console: NO
+2016-09-28T16:18:49.392Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T16:18:49.392Z - normal: Simulator:     listen: 
+2016-09-28T16:18:49.392Z - normal: Simulator:     debugger: none
+2016-09-28T16:18:49.392Z - normal: Simulator:     add searching path:
+2016-09-28T16:18:49.392Z - normal: Simulator: 
+2016-09-28T16:18:49.392Z - normal: Simulator: 
+2016-09-28T16:18:49.392Z - normal: Simulator: 
+2016-09-28T16:18:49.392Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:18:49.392Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T16:18:49.393Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:18:49.632Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T16:18:49.666Z - normal: Simulator: iShow!
+2016-09-28T16:18:49.924Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T16:18:51.279Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:19:12.419Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T16:19:12.421Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T16:19:12.425Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T16:19:12.429Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T16:19:12.969Z - normal: Simulator: Ready for GLSL
+2016-09-28T16:19:12.969Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T16:19:12.969Z - normal: Simulator: 
+2016-09-28T16:19:12.970Z - normal: Simulator: {
+2016-09-28T16:19:12.970Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T16:19:12.970Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T16:19:12.970Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T16:19:12.970Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T16:19:12.970Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T16:19:12.970Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T16:19:12.970Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T16:19:12.970Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T16:19:12.970Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T16:19:12.971Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T16:19:12.971Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T16:19:12.971Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T16:19:12.971Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T16:19:12.971Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T16:19:12.972Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T16:19:12.972Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T16:19:12.972Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T16:19:12.972Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T16:19:12.972Z - normal: Simulator: }
+2016-09-28T16:19:12.972Z - normal: Simulator: 
+2016-09-28T16:19:12.972Z - normal: Simulator: 
+2016-09-28T16:19:12.973Z - normal: Simulator: Project Config:
+2016-09-28T16:19:12.973Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T16:19:12.973Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T16:19:12.973Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T16:19:12.973Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T16:19:12.973Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T16:19:12.973Z - normal: Simulator:     show console: NO
+2016-09-28T16:19:12.974Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T16:19:12.974Z - normal: Simulator:     listen: 
+2016-09-28T16:19:12.974Z - normal: Simulator:     debugger: none
+2016-09-28T16:19:12.974Z - normal: Simulator:     add searching path:
+2016-09-28T16:19:12.974Z - normal: Simulator: 
+2016-09-28T16:19:12.974Z - normal: Simulator: 
+2016-09-28T16:19:12.975Z - normal: Simulator: 
+2016-09-28T16:19:12.975Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:19:12.975Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T16:19:12.975Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:19:13.218Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T16:19:13.255Z - normal: Simulator: iShow!
+2016-09-28T16:19:13.519Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T16:19:36.896Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:19:43.912Z - normal: Simulator: open file: 0001.map
+2016-09-28T16:19:47.178Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:19:47.629Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:19:48.127Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:19:48.511Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:19:48.911Z - normal: Simulator: open file: 0001.map
+2016-09-28T16:19:49.284Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:19:49.694Z - normal: Simulator: open file: 0001.map
+2016-09-28T16:19:49.994Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:20:18.504Z - normal: Compiled successfully
+2016-09-28T16:20:27.655Z - normal: Compiled successfully
+2016-09-28T16:21:16.353Z - normal: Compiled successfully
+2016-09-28T16:21:24.019Z - normal: Compiled successfully
+2016-09-28T16:22:54.577Z - normal: Compiled successfully
+2016-09-28T16:24:27.233Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T16:24:27.239Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T16:24:27.241Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T16:24:27.241Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T16:24:27.761Z - normal: Simulator: Ready for GLSL
+2016-09-28T16:24:27.761Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T16:24:27.761Z - normal: Simulator: 
+2016-09-28T16:24:27.761Z - normal: Simulator: {
+2016-09-28T16:24:27.761Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T16:24:27.762Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T16:24:27.762Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T16:24:27.762Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T16:24:27.762Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T16:24:27.762Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T16:24:27.762Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T16:24:27.762Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T16:24:27.763Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T16:24:27.763Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T16:24:27.763Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T16:24:27.763Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T16:24:27.763Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T16:24:27.763Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T16:24:27.764Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T16:24:27.764Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T16:24:27.764Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T16:24:27.764Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T16:24:27.764Z - normal: Simulator: }
+2016-09-28T16:24:27.764Z - normal: Simulator: 
+2016-09-28T16:24:27.764Z - normal: Simulator: 
+2016-09-28T16:24:27.764Z - normal: Simulator: Project Config:
+2016-09-28T16:24:27.765Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T16:24:27.765Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T16:24:27.765Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T16:24:27.765Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T16:24:27.765Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T16:24:27.765Z - normal: Simulator:     show console: NO
+2016-09-28T16:24:27.765Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T16:24:27.766Z - normal: Simulator:     listen: 
+2016-09-28T16:24:27.766Z - normal: Simulator:     debugger: none
+2016-09-28T16:24:27.766Z - normal: Simulator:     add searching path:
+2016-09-28T16:24:27.766Z - normal: Simulator: 
+2016-09-28T16:24:27.766Z - normal: Simulator: 
+2016-09-28T16:24:27.766Z - normal: Simulator: 
+2016-09-28T16:24:27.766Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:24:27.766Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T16:24:27.766Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:24:28.016Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T16:24:28.053Z - normal: Simulator: iShow!
+2016-09-28T16:24:28.312Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T16:25:04.045Z - normal: Compiled successfully
+2016-09-28T16:25:09.865Z - normal: Compiled successfully
+2016-09-28T16:25:54.064Z - normal: Compiled successfully
+2016-09-28T16:26:00.222Z - normal: Compiled successfully
+2016-09-28T16:26:30.970Z - normal: Compiled successfully
+2016-09-28T16:26:32.150Z - normal: Compiled successfully
+2016-09-28T16:26:53.790Z - normal: Compiled successfully
+2016-09-28T16:28:35.226Z - normal: Compiled successfully
+2016-09-28T16:28:57.830Z - normal: Compiled successfully
+2016-09-28T16:29:05.230Z - normal: Compiled successfully
+2016-09-28T16:32:30.301Z - normal: Compiled successfully
+2016-09-28T16:33:00.864Z - normal: Compiled successfully
+2016-09-28T16:33:13.042Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T16:33:13.045Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T16:33:13.046Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T16:33:13.051Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T16:33:13.585Z - normal: Simulator: Ready for GLSL
+2016-09-28T16:33:13.586Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T16:33:13.586Z - normal: Simulator: 
+2016-09-28T16:33:13.586Z - normal: Simulator: {
+2016-09-28T16:33:13.586Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T16:33:13.586Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T16:33:13.587Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T16:33:13.587Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T16:33:13.587Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T16:33:13.587Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T16:33:13.587Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T16:33:13.587Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T16:33:13.588Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T16:33:13.589Z - normal: Simulator: }
+2016-09-28T16:33:13.589Z - normal: Simulator: 
+2016-09-28T16:33:13.589Z - normal: Simulator: 
+2016-09-28T16:33:13.589Z - normal: Simulator: Project Config:
+2016-09-28T16:33:13.589Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T16:33:13.589Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T16:33:13.589Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T16:33:13.589Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T16:33:13.590Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T16:33:13.590Z - normal: Simulator:     show console: NO
+2016-09-28T16:33:13.591Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T16:33:13.591Z - normal: Simulator:     listen: 
+2016-09-28T16:33:13.591Z - normal: Simulator:     debugger: none
+2016-09-28T16:33:13.591Z - normal: Simulator:     add searching path:
+2016-09-28T16:33:13.592Z - normal: Simulator: 
+2016-09-28T16:33:13.592Z - normal: Simulator: 
+2016-09-28T16:33:13.592Z - normal: Simulator: 
+2016-09-28T16:33:13.592Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:33:13.592Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T16:33:13.592Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:33:13.828Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T16:33:13.864Z - normal: Simulator: iShow!
+2016-09-28T16:33:14.133Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T16:33:44.880Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T16:33:44.880Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T16:33:44.881Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T16:33:44.881Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T16:33:45.412Z - normal: Simulator: Ready for GLSL
+2016-09-28T16:33:45.412Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T16:33:45.412Z - normal: Simulator: 
+2016-09-28T16:33:45.412Z - normal: Simulator: {
+2016-09-28T16:33:45.412Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T16:33:45.412Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T16:33:45.412Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T16:33:45.413Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T16:33:45.413Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T16:33:45.413Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T16:33:45.413Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T16:33:45.414Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T16:33:45.414Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T16:33:45.414Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T16:33:45.414Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T16:33:45.414Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T16:33:45.414Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T16:33:45.414Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T16:33:45.415Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T16:33:45.415Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T16:33:45.415Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T16:33:45.415Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T16:33:45.415Z - normal: Simulator: }
+2016-09-28T16:33:45.415Z - normal: Simulator: 
+2016-09-28T16:33:45.415Z - normal: Simulator: 
+2016-09-28T16:33:45.415Z - normal: Simulator: Project Config:
+2016-09-28T16:33:45.415Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T16:33:45.415Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T16:33:45.416Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T16:33:45.416Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T16:33:45.416Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T16:33:45.416Z - normal: Simulator:     show console: NO
+2016-09-28T16:33:45.416Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T16:33:45.416Z - normal: Simulator:     listen: 
+2016-09-28T16:33:45.416Z - normal: Simulator:     debugger: none
+2016-09-28T16:33:45.416Z - normal: Simulator:     add searching path:
+2016-09-28T16:33:45.416Z - normal: Simulator: 
+2016-09-28T16:33:45.416Z - normal: Simulator: 
+2016-09-28T16:33:45.417Z - normal: Simulator: 
+2016-09-28T16:33:45.417Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:33:45.417Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T16:33:45.417Z - normal: Simulator: ------------------------------------------------
+2016-09-28T16:33:45.655Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T16:33:45.689Z - normal: Simulator: iShow!
+2016-09-28T16:33:45.952Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T16:34:54.817Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:55.484Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:56.058Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:56.573Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:56.940Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:57.268Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:57.618Z - normal: Simulator: open file: 0001.map
+2016-09-28T16:34:57.967Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:58.284Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:58.643Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:59.009Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:59.373Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:34:59.700Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:35:00.046Z - normal: Simulator: open file: 0002.map
+2016-09-28T16:49:05.437Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:03:44.443Z - normal: Compiled successfully
+2016-09-28T17:03:45.844Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T17:03:45.845Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T17:03:45.846Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T17:03:45.847Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T17:03:46.397Z - normal: Simulator: Ready for GLSL
+2016-09-28T17:03:46.397Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T17:03:46.398Z - normal: Simulator: 
+2016-09-28T17:03:46.399Z - normal: Simulator: {
+2016-09-28T17:03:46.399Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T17:03:46.400Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T17:03:46.400Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T17:03:46.401Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T17:03:46.401Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T17:03:46.402Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T17:03:46.403Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T17:03:46.403Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T17:03:46.403Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T17:03:46.403Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T17:03:46.404Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T17:03:46.404Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T17:03:46.404Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T17:03:46.405Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T17:03:46.405Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T17:03:46.406Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T17:03:46.406Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T17:03:46.407Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T17:03:46.407Z - normal: Simulator: }
+2016-09-28T17:03:46.407Z - normal: Simulator: 
+2016-09-28T17:03:46.408Z - normal: Simulator: 
+2016-09-28T17:03:46.409Z - normal: Simulator: Project Config:
+2016-09-28T17:03:46.409Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T17:03:46.410Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T17:03:46.411Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T17:03:46.411Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T17:03:46.411Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T17:03:46.412Z - normal: Simulator:     show console: NO
+2016-09-28T17:03:46.412Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T17:03:46.413Z - normal: Simulator:     listen: 
+2016-09-28T17:03:46.413Z - normal: Simulator:     debugger: none
+2016-09-28T17:03:46.414Z - normal: Simulator:     add searching path:
+2016-09-28T17:03:46.414Z - normal: Simulator: 
+2016-09-28T17:03:46.414Z - normal: Simulator: 
+2016-09-28T17:03:46.415Z - normal: Simulator: 
+2016-09-28T17:03:46.417Z - normal: Simulator: ------------------------------------------------
+2016-09-28T17:03:46.418Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T17:03:46.418Z - normal: Simulator: ------------------------------------------------
+2016-09-28T17:03:46.666Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T17:03:46.699Z - normal: Simulator: iShow!
+2016-09-28T17:03:47.004Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T17:03:48.511Z - error: Simulator: 184:ReferenceError: alert is not defined
+    at a (G:\cocos_creator_project\map_creator\library\bundle.project.js?009:NaN:0)
+2016-09-28T17:03:48.511Z - normal: Simulator: 
+2016-09-28T17:04:04.981Z - normal: Compiled successfully
+2016-09-28T17:04:06.550Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T17:04:06.553Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T17:04:06.553Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T17:04:06.553Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T17:04:07.128Z - normal: Simulator: Ready for GLSL
+2016-09-28T17:04:07.128Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T17:04:07.128Z - normal: Simulator: 
+2016-09-28T17:04:07.128Z - normal: Simulator: {
+2016-09-28T17:04:07.129Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T17:04:07.129Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T17:04:07.129Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T17:04:07.129Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T17:04:07.130Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T17:04:07.130Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T17:04:07.130Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T17:04:07.130Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T17:04:07.131Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T17:04:07.131Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T17:04:07.131Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T17:04:07.131Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T17:04:07.131Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T17:04:07.131Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T17:04:07.131Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T17:04:07.132Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T17:04:07.132Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T17:04:07.132Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T17:04:07.132Z - normal: Simulator: }
+2016-09-28T17:04:07.132Z - normal: Simulator: 
+2016-09-28T17:04:07.132Z - normal: Simulator: 
+2016-09-28T17:04:07.132Z - normal: Simulator: Project Config:
+2016-09-28T17:04:07.132Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T17:04:07.133Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T17:04:07.133Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T17:04:07.133Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T17:04:07.133Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T17:04:07.134Z - normal: Simulator:     show console: NO
+2016-09-28T17:04:07.134Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T17:04:07.134Z - normal: Simulator:     listen: 
+2016-09-28T17:04:07.134Z - normal: Simulator:     debugger: none
+2016-09-28T17:04:07.134Z - normal: Simulator:     add searching path:
+2016-09-28T17:04:07.134Z - normal: Simulator: 
+2016-09-28T17:04:07.134Z - normal: Simulator: 
+2016-09-28T17:04:07.134Z - normal: Simulator: 
+2016-09-28T17:04:07.135Z - normal: Simulator: ------------------------------------------------
+2016-09-28T17:04:07.135Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T17:04:07.135Z - normal: Simulator: ------------------------------------------------
+2016-09-28T17:04:07.379Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T17:04:07.427Z - normal: Simulator: iShow!
+2016-09-28T17:04:07.727Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T17:04:08.701Z - error: Simulator: 184:ReferenceError: js is not defined
+    at a (G:\cocos_creator_project\map_creator\library\bundle.project.js?009:NaN:0)
+2016-09-28T17:04:08.701Z - normal: Simulator: 
+2016-09-28T17:04:44.520Z - normal: Compiled successfully
+2016-09-28T17:04:45.575Z - normal: Simulator: Get data from file(D:/CocosCreator/resources/cocos2d-x/simulator/config.json) failed, error code is 2
+2016-09-28T17:04:45.579Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2016-09-28T17:04:45.579Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2016-09-28T17:04:45.580Z - normal: Simulator: FRAME SCALE = 1.00
+2016-09-28T17:04:46.037Z - normal: Simulator: Ready for GLSL
+2016-09-28T17:04:46.037Z - normal: Simulator: Ready for OpenGL 2.0
+2016-09-28T17:04:46.037Z - normal: Simulator: 
+2016-09-28T17:04:46.037Z - normal: Simulator: {
+2016-09-28T17:04:46.038Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 372.70
+2016-09-28T17:04:46.038Z - normal: Simulator: 	gl.supports_NPOT: true
+2016-09-28T17:04:46.038Z - normal: Simulator: 	cocos2d.x.build_time: 11:37:11 Jul 29 2016
+2016-09-28T17:04:46.038Z - normal: Simulator: 	cocos2d.x.version: cocos2d-x-3.10-lite
+2016-09-28T17:04:46.038Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2016-09-28T17:04:46.038Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2016-09-28T17:04:46.038Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2016-09-28T17:04:46.038Z - normal: Simulator: 	gl.max_texture_size: 16384
+2016-09-28T17:04:46.038Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2016-09-28T17:04:46.039Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2016-09-28T17:04:46.039Z - normal: Simulator: 	gl.renderer: GeForce GTX 960/PCIe/SSE2
+2016-09-28T17:04:46.039Z - normal: Simulator: 	gl.max_texture_units: 192
+2016-09-28T17:04:46.039Z - normal: Simulator: 	gl.supports_ETC1: false
+2016-09-28T17:04:46.039Z - normal: Simulator: 	gl.supports_PVRTC: false
+2016-09-28T17:04:46.040Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2016-09-28T17:04:46.040Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2016-09-28T17:04:46.040Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2016-09-28T17:04:46.040Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2016-09-28T17:04:46.040Z - normal: Simulator: }
+2016-09-28T17:04:46.040Z - normal: Simulator: 
+2016-09-28T17:04:46.040Z - normal: Simulator: 
+2016-09-28T17:04:46.041Z - normal: Simulator: Project Config:
+2016-09-28T17:04:46.041Z - normal: Simulator:     project dir: D:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2016-09-28T17:04:46.041Z - normal: Simulator:     writable path: $(PROJDIR)\
+2016-09-28T17:04:46.041Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2016-09-28T17:04:46.041Z - normal: Simulator:     frame size: 1800 x 900
+2016-09-28T17:04:46.041Z - normal: Simulator:     frame scale: 1.00
+2016-09-28T17:04:46.041Z - normal: Simulator:     show console: NO
+2016-09-28T17:04:46.041Z - normal: Simulator:     write debug log: NO ()
+2016-09-28T17:04:46.042Z - normal: Simulator:     listen: 
+2016-09-28T17:04:46.042Z - normal: Simulator:     debugger: none
+2016-09-28T17:04:46.042Z - normal: Simulator:     add searching path:
+2016-09-28T17:04:46.042Z - normal: Simulator: 
+2016-09-28T17:04:46.042Z - normal: Simulator: 
+2016-09-28T17:04:46.042Z - normal: Simulator: 
+2016-09-28T17:04:46.042Z - normal: Simulator: ------------------------------------------------
+2016-09-28T17:04:46.042Z - normal: Simulator: LOAD Js FILE: main.js
+2016-09-28T17:04:46.043Z - normal: Simulator: ------------------------------------------------
+2016-09-28T17:04:46.278Z - normal: Simulator: Cocos2d-JS v3.9
+2016-09-28T17:04:46.319Z - normal: Simulator: iShow!
+2016-09-28T17:04:46.616Z - normal: Simulator: start load record file: g:\game\data\map\map.json
+2016-09-28T17:04:48.459Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:49.012Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:49.443Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:49.759Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:50.073Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:50.483Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:51.443Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:51.748Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:52.109Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:52.394Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:52.694Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:53.048Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:53.352Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:53.681Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:53.993Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:04:54.345Z - normal: Simulator: open file: 0002.map
+2016-09-28T17:05:13.986Z - info: shutdown preview server

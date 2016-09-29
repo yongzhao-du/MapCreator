@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.cancel",
+    "texture": "ef43d465-20a3-4c40-991c-1f95a25b7717",
+    "atlas": "",
+    "rect": [
+      14,
+      15,
+      20,
+      19
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

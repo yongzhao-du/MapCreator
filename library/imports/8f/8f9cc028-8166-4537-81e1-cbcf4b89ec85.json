@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.transport.rew",
+    "texture": "e8cd484a-e7b5-4f3b-b07a-c3354028779e",
+    "atlas": "",
+    "rect": [
+      12,
+      17,
+      24,
+      14
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.transport.ff",
+    "texture": "03902d6f-f31d-4189-91ef-257853766ac8",
+    "atlas": "",
+    "rect": [
+      12,
+      17,
+      24,
+      14
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

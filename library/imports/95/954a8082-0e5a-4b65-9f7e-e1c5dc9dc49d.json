@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.minus",
+    "texture": "b95b21b8-5f4d-4408-ae0f-bdf570b49df0",
+    "atlas": "",
+    "rect": [
+      12,
+      22,
+      25,
+      5
+    ],
+    "offset": [
+      0.5,
+      -0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

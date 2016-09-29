@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;;;;;;;;;;KAWX;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,SAAS,GAAG,IAAI,CAAC,YAAY,CAAC,EAAE,CAAC,QAAQ,CAAC,CAAC;AAChD,YAAI,CAAC,QAAQ,GAAG,KAAK,CAAC;KACzB;;AAED,SAAK,EAAE,iBAAY;AACf,aAAK,IAAI,CAAC,GAAG,CAAC,IAAI,EAAE,CAAC,IAAI,IAAI,EAAE,CAAC,EAAE,EAAE;AAChC,gBAAI,CAAC,SAAS,CAAC,MAAM,CAAC,CAAC,GAAG,EAAE,EAAE,CAAC,IAAI,GAAG,EAAE,CAAC,CAAC;AAC1C,gBAAI,CAAC,SAAS,CAAC,MAAM,CAAC,CAAC,GAAG,EAAE,EAAE,IAAI,GAAG,EAAE,CAAC,CAAC;SAC5C;AACD,aAAK,IAAI,CAAC,GAAG,CAAC,IAAI,EAAE,CAAC,IAAI,IAAI,EAAE,CAAC,EAAE,EAAE;AAChC,gBAAI,CAAC,SAAS,CAAC,MAAM,CAAC,CAAC,IAAI,GAAG,EAAE,EAAE,CAAC,GAAG,EAAE,CAAC,CAAC;AAC1C,gBAAI,CAAC,SAAS,CAAC,MAAM,CAAC,IAAI,GAAG,EAAE,EAAE,CAAC,GAAG,EAAE,CAAC,CAAC;SAC5C;AACD,YAAI,CAAC,SAAS,CAAC,MAAM,EAAE,CAAC;KAC3B;;AAED,cAAU,EAAE,oBAAU,KAAK,EAAE;AACzB,YAAI,OAAO,KAAK,AAAC,KAAK,SAAS,EAC3B,OAAO;AACX,YAAI,CAAC,IAAI,CAAC,MAAM,GAAG,KAAK,CAAC;KAC5B;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this._graphics = this.getComponent(cc.Graphics);\r\n        this._visible = false;\r\n    },\r\n    \r\n    start: function () {\r\n        for (var x = -2000; x <= 2000; x++) {\r\n            this._graphics.moveTo(x * 30, -2000 * 30);\r\n            this._graphics.lineTo(x * 30, 2000 * 30);\r\n        }\r\n        for (var y = -2000; y <= 2000; y++) {\r\n            this._graphics.moveTo(-2000 * 30, y * 30);\r\n            this._graphics.lineTo(2000 * 30, y * 30);\r\n        }\r\n        this._graphics.stroke();\r\n    },\r\n\r\n    setVisible: function (value) {\r\n        if (typeof(value) !== 'boolean')\r\n            return;\r\n        this.node.active = value;\r\n    }\r\n});\r\n"
+  ]
+}

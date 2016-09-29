@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.share",
+    "texture": "04171390-8409-47c8-abd0-5a5d1f4c95f2",
+    "atlas": "",
+    "rect": [
+      15,
+      12,
+      18,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

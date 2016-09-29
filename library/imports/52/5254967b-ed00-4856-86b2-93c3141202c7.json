@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.feature.email",
+    "texture": "2befd606-93aa-4c4a-b72e-0479cf8db93f",
+    "atlas": "",
+    "rect": [
+      12,
+      15,
+      24,
+      19
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

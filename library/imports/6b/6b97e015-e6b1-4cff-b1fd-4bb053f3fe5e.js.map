@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,kBAAU,EAAE,IAAI;AAChB,mBAAW,EAAE,GAAG;KACnB;;AAED,SAAK,EAAE,iBAAY;AACf,YAAI,QAAQ,GAAG,IAAI,CAAC,YAAY,CAAC,EAAE,CAAC,QAAQ,CAAC,CAAC;AAC9C,gBAAQ,CAAC,IAAI,CACT,CAAC,EACD,CAAC,EACD,IAAI,CAAC,UAAU,EACf,IAAI,CAAC,WAAW,CAAC,CAAC;AACtB,gBAAQ,CAAC,MAAM,EAAE,CAAC;KACrB;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        frameWidth: 1136,\r\n        frameHeight: 640,\r\n    },\r\n    \r\n    start: function () {\r\n        var graphics = this.getComponent(cc.Graphics);\r\n        graphics.rect(\r\n            0,\r\n            0,\r\n            this.frameWidth,\r\n            this.frameHeight);\r\n        graphics.stroke();\r\n    }\r\n});\r\n"
+  ]
+}

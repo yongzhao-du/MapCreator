@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.sync",
+    "texture": "247b2fd6-ca53-411b-9953-db707222183a",
+    "atlas": "",
+    "rect": [
+      13,
+      11,
+      22,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

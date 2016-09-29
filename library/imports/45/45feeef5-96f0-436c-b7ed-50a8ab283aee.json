@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.feature.camera",
+    "texture": "0461742b-eea3-455a-9396-95904f2a16ff",
+    "atlas": "",
+    "rect": [
+      12,
+      13,
+      24,
+      20
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

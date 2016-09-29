@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.close",
+    "texture": "3b2b68be-7685-474c-bba1-14b9d6be579c",
+    "atlas": "",
+    "rect": [
+      14,
+      15,
+      20,
+      19
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

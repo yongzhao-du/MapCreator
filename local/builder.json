@@ -1,0 +1,15 @@
+{
+  "androidStudio": false,
+  "buildPath": "G:\\cocos_creator_project\\map_creator\\build",
+  "debug": false,
+  "keystoreAlias": "",
+  "keystoreAliasPassword": "",
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "win32",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "sourceMaps": false,
+  "template": "default",
+  "useDebugKeystore": true
+}

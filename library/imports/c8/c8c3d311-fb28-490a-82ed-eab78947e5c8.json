@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.delete",
+    "texture": "751aaed6-2538-4b4f-a3ec-5aadd8bc9709",
+    "atlas": "",
+    "rect": [
+      15,
+      12,
+      18,
+      23
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

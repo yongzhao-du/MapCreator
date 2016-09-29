@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.check",
+    "texture": "3f48bf46-57a0-42a5-a1c3-0e9b34418daa",
+    "atlas": "",
+    "rect": [
+      12,
+      13,
+      24,
+      21
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.transport.pause",
+    "texture": "43dda9e3-cded-4612-83ea-b18bf529e8e4",
+    "atlas": "",
+    "rect": [
+      17,
+      14,
+      14,
+      20
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.save",
+    "texture": "9943b9d6-f4b0-453e-b29a-b7cd8adf53fa",
+    "atlas": "",
+    "rect": [
+      13,
+      13,
+      22,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

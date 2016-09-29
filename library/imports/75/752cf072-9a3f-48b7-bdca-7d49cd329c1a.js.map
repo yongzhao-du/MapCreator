@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,MAAM,CAAC,UAAU,GAAG,UAAU,IAAI,EAAE;AAChC,QAAM,IAAI,GAAG,gBAAgB,GAAG,IAAI,CAAC;AACrC,MAAE,CAAC,MAAM,CAAC,OAAO,CAAC,IAAI,EAAE,EAAE,CAAC,MAAM,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AACtD,YAAI,IAAI,GAAG,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AAClC,YAAI,CAAC,MAAM,GAAG,MAAM,CAAC;KACxB,CAAC,CAAC;CACN,CAAA",
+  "file": "unknown",
+  "sourcesContent": [
+    "window.openDialog = function (name) {\r\n    const path = 'prefab/dialog/' + name;\r\n    cc.loader.loadRes(path, cc.Prefab, function (err, prefab) {\r\n        var node = cc.instantiate(prefab);\r\n        node.parent = canvas;\r\n    });\r\n}\r\n"
+  ]
+}

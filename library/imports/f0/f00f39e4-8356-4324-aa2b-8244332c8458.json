@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.download",
+    "texture": "6f47e4ce-2cb2-4d53-9fbf-a43e5f4fc8b2",
+    "atlas": "",
+    "rect": [
+      16,
+      10,
+      16,
+      27
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

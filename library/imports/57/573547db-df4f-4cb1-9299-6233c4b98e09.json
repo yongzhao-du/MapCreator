@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.feature.video",
+    "texture": "0857e0f5-530b-47dd-9112-4ffed08ed2ef",
+    "atlas": "",
+    "rect": [
+      12,
+      14,
+      24,
+      19
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

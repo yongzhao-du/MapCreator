@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.upload",
+    "texture": "1ec1bf8c-08bc-4ab2-a780-193b929eebab",
+    "atlas": "",
+    "rect": [
+      16,
+      11,
+      16,
+      27
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

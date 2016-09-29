@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.questionmark",
+    "texture": "873abeb2-be08-4e7b-be8a-16bde6a28ba7",
+    "atlas": "",
+    "rect": [
+      15,
+      11,
+      18,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}

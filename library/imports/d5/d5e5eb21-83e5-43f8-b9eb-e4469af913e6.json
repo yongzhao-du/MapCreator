@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "appbar.favs",
+    "texture": "d0dca938-8d4e-4963-9939-7ad694ca0367",
+    "atlas": "",
+    "rect": [
+      11,
+      11,
+      26,
+      25
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      48,
+      48
+    ]
+  }
+}
