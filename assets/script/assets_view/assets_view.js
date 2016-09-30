@@ -13,7 +13,7 @@ cc.Class({
         this._selectedItem = null;
     },
     
-    refresh: function () {
+    reset: function () {
         this._selectedItem = null;
         
         var children = this.fileListContainer.children;
@@ -39,16 +39,32 @@ cc.Class({
             label.string = name;
         }
     },
+    
+    setSelectedItemByName: function (name) {
+        for (var j = 0; j < this.fileListContainer.children.length; j++) {
+            var node = this.fileListContainer.children[j];
+            var button = node.getComponent(cc.Button);
+            var label = node.getComponentInChildren(cc.Label);
+            if (label.string == name) {
+                this.setSelectedItem(button);
+                break;
+            }
+        }
+    },
 
+    setSelectedItem: function (item) {
+        item.interactable = false;
+        if (this._selectedItem)
+            this._selectedItem.interactable = true;
+        this._selectedItem = item;
+    },
+    
     onFileItemClick: function (event) {
         var node = event.target;
         var button = node.getComponent(cc.Button);
         var label = node.getComponentInChildren(cc.Label);
         var name = label.string;
-        button.interactable = false;
-        if (this._selectedItem)
-            this._selectedItem.interactable = true;
-        this._selectedItem = button;
+        this.setSelectedItem(button);
         cc.log('open file:', name);
     },
     // called every frame, uncomment this function to activate update callback

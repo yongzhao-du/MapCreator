@@ -13,7 +13,7 @@ cc.Class({
         this._selectedItem = null;
     },
 
-    refresh: function refresh() {
+    reset: function reset() {
         this._selectedItem = null;
 
         var children = this.fileListContainer.children;
@@ -40,14 +40,30 @@ cc.Class({
         }
     },
 
+    setSelectedItemByName: function setSelectedItemByName(name) {
+        for (var j = 0; j < this.fileListContainer.children.length; j++) {
+            var node = this.fileListContainer.children[j];
+            var button = node.getComponent(cc.Button);
+            var label = node.getComponentInChildren(cc.Label);
+            if (label.string == name) {
+                this.setSelectedItem(button);
+                break;
+            }
+        }
+    },
+
+    setSelectedItem: function setSelectedItem(item) {
+        item.interactable = false;
+        if (this._selectedItem) this._selectedItem.interactable = true;
+        this._selectedItem = item;
+    },
+
     onFileItemClick: function onFileItemClick(event) {
         var node = event.target;
         var button = node.getComponent(cc.Button);
         var label = node.getComponentInChildren(cc.Label);
         var name = label.string;
-        button.interactable = false;
-        if (this._selectedItem) this._selectedItem.interactable = true;
-        this._selectedItem = button;
+        this.setSelectedItem(button);
         cc.log('open file:', name);
     }
 });

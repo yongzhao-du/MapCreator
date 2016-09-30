@@ -2,6 +2,9 @@
 cc._RFpush(module, '752cfBymj9It73KfUnNMpwa', 'global');
 // script\global.js
 
+window.gRecordObject = null;
+window.gCurrentMapObject = null;
+
 window.openDialog = function (name) {
     var path = 'prefab/dialog/' + name;
     cc.loader.loadRes(path, cc.Prefab, function (err, prefab) {

@@ -1,10 +1,8 @@
 const version = '0.0.1';
-const dataRoot = 'g:\\game\\data\\';
-const resPath = 'map\\';
+const dataRoot = 'e:\\ex_game\\data\\';
+const resPath = dataRoot + 'map\\';
 const recordFileName = 'map.json';
-const recordFilePath = dataRoot + resPath + recordFileName;
-
-window.gRecordObject = null;
+const recordFilePath = resPath + recordFileName;
 
 cc.Class({
     extends: cc.Component,
@@ -30,46 +28,104 @@ cc.Class({
         
         
         assetsView: cc.Node,
+        statusView: cc.Node,
     },
 
     // use this for initialization
     onLoad: function () {
         window.canvas = this.node;
         
-        this._assetsViewCtrl = this.assetsView.getComponent('assets_view');
+        this.initData();
+        this.initView();
         
-        cc.log('start load record file:', recordFilePath);
-        if (!this.loadData()) {
-            cc.log('record file not exist, created.');
-            gRecordObject = {
+    
+        this.addEvent();
+    },
+    
+    addEvent: function () {
+        this.node.on(GameEvent.NEED_CREATE_NEW_MAP, this.onEvent.bind(this));
+    },
+    
+    initView: function () {
+        this._assetsView = this.assetsView.getComponent('assets_view');
+        this._statusView = this.statusView.getComponent('status_view');
+        
+        this._assetsView.reset();
+    },
+    
+    initData: function () {
+        var object, stream;
+        
+        cc.log('正在读取记录文件:', recordFilePath);
+        if (!jsb.fileUtils.isFileExist(recordFilePath)) {
+            cc.log('读取记录文件失败, 自动创建记录文件。');
+            object = {
                 version: version,
                 fileRecords: [],
             }
-            this.saveData();
+            stream = JSON.stringify(object);
+            if (!jsb.fileUtils.writeStringToFile(stream, recordFilePath)) {
+                cc.log('创建记录文件失败，未知错误。');
+                //这里要退出引擎，还找不到API
+            }
         }
-        this._assetsViewCtrl.refresh();
+        
+        stream = jsb.fileUtils.getStringFromFile(recordFilePath)
+        object = JSON.parse(stream);
+        
+        gRecordObject = object;
     },
     
-    start: function () {
+    newMap: function (id) {
+        var path = resPath + id + '.map';
+        if (jsb.fileUtils.isFileExist(path)) {
+            this._statusView.error('创建地图文件失败，地图文件已存在。');
+            return;
+        }
+        var object = {
+            id: id,
+            mapSize: { width: 960, height: 640 },
+            tileSize: { width: 20, height: 20 },
+            tileMasks: [],
+        };
+        var stream = JSON.stringify(object);
+        if (!jsb.fileUtils.writeStringToFile(stream, path)) {
+            this._statusView.error('创建地图文件失败，未知错误。');
+            return;
+        }
         
+        gRecordObject.fileRecords.push(id);
+        this.saveRecord();
+        gCurrentMapObject = object;
+        
+        this._assetsView.reset();
+        this._assetsView.setSelectedItemByName(id.toString());
+    },
+    
+    onEvent: function (event) {
+        switch (event.type) {
+            case GameEvent.NEED_CREATE_NEW_MAP:
+                this.newMap(event.detail);
+                break;
+                
+            default:
+                break;
+        }
     },
     
     onCLick: function () {
-        //openDialog('new_map_dialog');
+        if (gCurrentMapObject && gModifliy) {
+            this.openDialog('confirm_save');
+        } else {
+            this.openDialog('new_map');
+        }
     },
     
-    loadData: function () {
-        if (!jsb.fileUtils.isFileExist(recordFilePath)) return false;
-        var data = jsb.fileUtils.getStringFromFile(recordFilePath);
-        gRecordObject = JSON.parse(data);
-        return true;
-    },
-    
-    saveData: function () {
-        if (!gRecordObject) return false;
-        var cache = JSON.stringify(gRecordObject);
-        return jsb.fileUtils.writeStringToFile(cache, recordFilePath);
-    },
+    saveRecord: function () {
+        if (!gRecordObject) return;
+        var stream = JSON.stringify(gRecordObject);
+        return jsb.fileUtils.writeStringToFile(stream, recordFilePath);
+    }
 
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {
